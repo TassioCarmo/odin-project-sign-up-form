@@ -8,50 +8,71 @@
     </head>
     <body>
         <div class="page-container">
-            <div class="image-container">
-                <img src="resources/images/odin-lined.png" alt="logo" id="logo-image">
-                <img src="resources/images/cyber.gif" alt="cyberpunk city" id="main-image"> 
-            </div>
-            <div class="form-container">
-            <form action="">
-                <div class="form-row">
-                    <div class="form-item">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" class="input-control" name="first-name" required>
-                     </div>
-                    <div class="form-item">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" class="input-control" name="last-name" required>
-                    </div>             
-                </div>
-
-                <div class="form-row">
-                    <div class="form-item">
-                        <label for="email">Email</label>
-                        <input type="email"class="input-control" name="email" required>
-                    </div>
-
-                    <div class="form-item">
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" class="input-control" name="phone" required>                    
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-item">
-                        <label for="password">Password</label>
-                        <input type="password" class="input-control" name="password" required>
-                    </div>
-                
-                    <div class="form-item">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" class="input-control" name="confirm-password" required>
-                    </div>
-                 </div>
-
-                <input type="submit" id="sign-up-button" value="Sign Up">
             
-            </form>
-        </div>
+            <div class="left-page-column">             
+                <div class="logo-image-container">
+                    <img src="resources/images/odin-lined.png" alt="logo" id="logo-image">
+                </div>
+                <div class="main-image-container">
+                    <img src="resources/images/cyber.gif" alt="cyberpunk city" id="main-image"> 
+                </div>
+            </div>
+
+            <div class="right-page-column">
+                <div class="dummy-text-container">
+                    <p>
+                        This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! 
+                    </p>
+                    <p>
+                        Sign up now to get started.
+                    </p>
+                    <p>
+                        You know you want to.
+                    </p>
+                </div>
+
+                <div class="form-container">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label class="label-control" for="first-name">First Name:</label>
+                                <input type="text" class="input-control" name="first-name" required>
+                             </div>
+                            <div class="form-item">
+                                <label class="label-control" for="last-name">Last Name:</label>
+                                <input type="text" class="input-control" name="last-name" required>
+                            </div>             
+                        </div>
+        
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label class="label-control" for="email">Email</label>
+                                <input type="email"class="input-control" name="email" required>
+                            </div>
+        
+                            <div class="form-item">
+                                <label class="label-control" for="phone">Phone Number:</label>
+                                <input type="tel" class="input-control" name="phone" required>                    
+                            </div>
+                        </div>
+        
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label class="label-control" for="password">Password</label>
+                                <input type="password" class="input-control" name="password" required>
+                            </div>
+                        
+                            <div class="form-item">
+                                <label class="label-control" for="confirm-password">Confirm Password</label>
+                                <input type="password" class="input-control" name="confirm-password" required>
+                            </div>
+                         </div>
+        
+                        <div class="buttom-container">
+                            <input type="submit" id="sign-up-button" value="Sign Up">
+                        </div>         
+                    </form>
+                </div>
+            </div>
     </body>
 </html>
