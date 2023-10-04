@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        <title>Sign up Form</title>
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="image-container">
+                <img src="resources/images/odin-lined.png" alt="logo" id="logo-image">
+                <img src="resources/images/cyber.gif" alt="cyberpunk city" id="main-image"> 
+            </div>
+            <div class="form-container">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" class="input-control" name="first-name" required>
+                     </div>
+                    <div class="form-item">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" class="input-control" name="last-name" required>
+                    </div>             
+                </div>
+
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email"class="input-control" name="email" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" class="input-control" name="phone" required>                    
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="password">Password</label>
+                        <input type="password" class="input-control" name="password" required>
+                    </div>
+                
+                    <div class="form-item">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" class="input-control" name="confirm-password" required>
+                    </div>
+                 </div>
+
+                <input type="submit" id="sign-up-button" value="Sign Up">
+            
+            </form>
+        </div>
+    </body>
+</html>
